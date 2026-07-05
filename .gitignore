@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+*.manifest
+*.spec
+
+# Virtual environments
+venv/
+env/
+.venv/
+virtualenv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# Database
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.lance/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Temporary
+*.tmp
+*.temp
+temp/
+logs/
+
+# Documentation build
+docs/_build/
+site/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
